@@ -67,4 +67,7 @@ Also, at the time that I wrote most of the code, it was after midnight and I
 still wasn't sure where to start. I was only intending on putting some notes
 down to come back to in the morning. But instead my brain just kept shitting.
 Next thing I know, it's almost 3 and I have a mostly-functional completed
-assignment. Hence the pretty-much-finished nature of the initial commit. And the spaghetti.
+assignment. Hence the pretty-much-finished nature of the initial commit.
+
+This one could definitely use some clean up. It will not get it. I stared at a
+blank screen for too long on this one and am ready to be done with it.
