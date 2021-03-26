@@ -19,10 +19,10 @@ class Knight
 
   def find_possible_moves(arr)
     moves = MOVEMENTS.map { |move| [move[0] + arr[0], move[1] + arr[1]] }
-    moves.keep_if { |move| valid_space?(move) }
+    moves.keep_if { |move| Knight.valid_space?(move) }
   end
 
-  def valid_space?(arr)
+  def self.valid_space?(arr)
     true_or_false = false
     if arr.length == 2
       true_or_false = true

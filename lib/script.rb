@@ -7,7 +7,7 @@ require_relative 'knight'
 # include Board
 
 def knight_moves(arr1 = [1, 0], arr2 = random_position)
-  return unless Board.valid_space?(arr1) && Board.valid_space?(arr2)
+  return unless Knight.valid_space?(arr1) && Knight.valid_space?(arr2)
 
   @queue = [Knight.new(arr1)]
   until @queue[0].position == arr2
